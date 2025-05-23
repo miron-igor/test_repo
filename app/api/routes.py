@@ -7,6 +7,7 @@ import tempfile
 import logging
 from app.services.bruteforce import get_task_status # Функция для GET /status
 from app.websocket.manager import ws_manager # Твой WebSocketManager
+from typing import Optional, Dict, Any
 
 logger = logging.getLogger(__name__)
 router = APIRouter()
