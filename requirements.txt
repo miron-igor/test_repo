@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+databases
+pydantic
+rarfile
+celery
+redis
+websockets
+python-multipart
+asgiref
+aioredis
+aiohttp
